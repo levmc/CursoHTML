@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header,
+section,
+footer,
+aside,
+nav,
+article {
+  display: block;
+}
+.general {
+  border: 1px solid black;
+  width: 990px;
+  margin: 15px auto;
+  background: gray;
+}
+
+.cabecera {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+.cabecera .menu {
+  font: bold 14px verdana;
+  text-align: right;
+}
+.menu li {
+  list-style: none;
+  display: inline;
+}
+.lugares {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+.lugares img {
+  width: 100%;
+}
+.contenido {
+  border: 1px solid black;
+  /* padding: 20px; */
+  width: 600px;
+  margin: 20px;
+  float: left;
+}
+.contenidoextra {
+  border: 1px solid black;
+  /* padding: 20px; */
+  margin: 20px;
+  width: 300px;
+  float: right;
+}
+.pie {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  clear: both;  
+}
+footer .comentario {
+  border: 1px solid black;
+  margin: auto;
+  width: 220px;
+  float: left;
+}
+footer .imagenes {
+  border: 1px solid black;
+  margin: auto;
+  width: 300px;
+  float: center;
+}
+footer .amigos {
+  border: 1px solid black;
+  margin: auto;
+  width: 180px;
+  float: right;
+}
+.amigos li {
+  list-style: none;
+}
