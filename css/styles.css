@@ -1,6 +1,6 @@
 body{
   background: #e9ebee;
-  font-family: sans-serif;
+  font-family: Dayrom,sans-serif;
   font-size: 16px;
 }
 header{
@@ -36,4 +36,7 @@ header .menu a{
 }
 header .menu a:hover{
   color: #e9ebee;
+}
+.principal .presentacion img{
+  width: 100%;
 }
