@@ -1,81 +1,39 @@
-* {
-  padding: 0;
-  margin: 0;
+body{
+  background: #e9ebee;
+  font-family: sans-serif;
+  font-size: 16px;
 }
-header,
-section,
-footer,
-aside,
-nav,
-article {
-  display: block;
+header{
+  padding: 5px 0;
+  background: #548216;
+  border-bottom: 3px solid #000;
 }
-.general {
-  border: 1px solid black;
-  width: 990px;
-  margin: 15px auto;
-  background: gray;
+header .logo a{
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  overflow: hidden;
 }
-
-.cabecera {
-  border: 1px solid black;
-  padding: 20px;
-  margin: 20px;
-}
-.cabecera .menu {
-  font: bold 14px verdana;
-  text-align: right;
-}
-.menu li {
-  list-style: none;
-  display: inline;
-}
-.lugares {
-  border: 1px solid black;
-  padding: 20px;
-  margin: 20px;
-}
-.lugares img {
+header .logo a img{
   width: 100%;
 }
-.contenido {
-  border: 1px solid black;
-  /* padding: 20px; */
-  width: 600px;
-  margin: 20px;
-  float: left;
+header .titulo{
+  display: inline-block;
 }
-.contenidoextra {
-  border: 1px solid black;
-  /* padding: 20px; */
-  margin: 20px;
-  width: 300px;
-  float: right;
+header .subtutilo{
+  display: inline-block;
 }
-.pie {
-  border: 1px solid black;
-  padding: 20px;
-  margin: 20px;
-  clear: both;  
+header .menu{
+  padding: 0;
+  margin-top: 10px;
 }
-footer .comentario {
-  border: 1px solid black;
-  margin: auto;
-  width: 220px;
-  float: left;
+header .menu a{
+  margin-left: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-decoration: none;
 }
-footer .imagenes {
-  border: 1px solid black;
-  margin: auto;
-  width: 300px;
-  float: center;
-}
-footer .amigos {
-  border: 1px solid black;
-  margin: auto;
-  width: 180px;
-  float: right;
-}
-.amigos li {
-  list-style: none;
+header .menu a:hover{
+  color: #e9ebee;
 }
